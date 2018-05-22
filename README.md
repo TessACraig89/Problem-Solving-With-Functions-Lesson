@@ -98,6 +98,8 @@ const calculate = (num1, num2, operation) => {
         return (num1 * num2);
     } else if (operation == "div") {
         return (num1 / num2);
+    } else if (operation == "exp") {
+      return (Math.pow(num1, num2));
     }
  };
 
@@ -105,6 +107,7 @@ console.log(calculate(4, 3, "sub"));
 console.log(calculate(4, 3, "add"));
 console.log(calculate(4, 3, "mult"));
 console.log(calculate(4, 3, "div"));
+console.log(calculate(4, 3, "exp"));
 ```
 <br>
 <hr>
