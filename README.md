@@ -46,7 +46,20 @@ console.log(reverseWordOrder("I use Lâncome on my comb"));
 
 > => "comb my on Lâncome use I"
 
+My Solution:
 
+```javascript
+const reverseWordOrder = (str) => {
+    // Step 1. Use the split() method to return a new array
+    var splitString = str.split(" "); 
+    // Step 2. Use the reverse() method to reverse the new created array
+    var reverseArray = splitString.reverse();
+    //Step 4. Return the reversed string
+    return reverseArray;
+ };
+
+reverseWordOrder("hello there bill");
+``` 
 <br>
 <hr>
 
