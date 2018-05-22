@@ -15,9 +15,17 @@ Write a function called `printGreeting` with a parameter `name` that returns a g
 ```javascript
 console.log(printGreeting("Slimer"));
 ```
-
 > => Hello there, Slimer!
 
+My Solution:
+
+```javascript
+const printGreeting = (name) => {
+   console.log('Welcome ' + name);
+}
+
+printGreeting('jennifer');
+``` 
 <br>
 <hr>
 
