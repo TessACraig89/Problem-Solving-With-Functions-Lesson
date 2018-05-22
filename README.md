@@ -86,7 +86,26 @@ console.log(calculate(4, 3, "exp"));
 
 => 64
 ```
+My Solution: 
 
+```javascript
+const calculate = (num1, num2, operation) => {
+    if (operation == "add") {
+      return solutionAdd = (num1 + num2);
+    } else if (operation == "sub") {
+        return (num1 - num2);
+    } else if (operation == "mult") {
+        return (num1 * num2);
+    } else if (operation == "div") {
+        return (num1 / num2);
+    }
+ };
+
+console.log(calculate(4, 3, "sub"));
+console.log(calculate(4, 3, "add"));
+console.log(calculate(4, 3, "mult"));
+console.log(calculate(4, 3, "div"));
+```
 <br>
 <hr>
 
