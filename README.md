@@ -25,7 +25,7 @@ const printGreeting = (name) => {
 }
 
 printGreeting('jennifer');
-``` 
+```
 <br>
 <hr>
 
@@ -57,7 +57,7 @@ const reverseWordOrder = (str) => {
  };
 
 console.log(reverseWordOrder("hello there bill"));
-``` 
+```
 <br>
 <hr>
 
@@ -86,7 +86,7 @@ console.log(calculate(4, 3, "exp"));
 
 => 64
 ```
-My Solution: 
+My Solution:
 
 ```javascript
 const calculate = (num1, num2, operation) => {
@@ -126,3 +126,14 @@ A number of length n is _1-to-n pandigital_ if it makes use of all the digits 1 
 
 
 Write a function that checks if a number is _1-to-n pandigital_.
+
+My Solution:
+
+```javascript
+const pandigital = (number) => {
+  const digits = (""+number).split("");
+  console.log(digits);
+};
+
+pandigital(12345);
+```
