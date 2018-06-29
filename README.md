@@ -132,7 +132,10 @@ My Solution:
 ```javascript
 const pandigital = (number) => {
   const digits = (""+number).split("");
-  console.log(digits);
+  for (i = 0; i <= digits.length; i++) {
+    // loop through array and assign each digit its own variable 
+    // check each variable against
+  }
 };
 
 pandigital(12345);
